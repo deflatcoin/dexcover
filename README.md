@@ -3,7 +3,7 @@
 
 Allows you to run an exchange on any html hosting, no node, no php no docker.
 
-is intended for the user who has few hosting features, virtually all traffic occurs between the client browser and the IPFS network and provider API, the host only provides i index.html and the * two small configuration files.
+is intended for the user who has few hosting features, virtually all traffic occurs between the client browser with the IPFS network and provider API, the host only provides i index.html and the * two small configuration files.
 
 * we use two as an example, it may be more or just one.
 
