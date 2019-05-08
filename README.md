@@ -11,3 +11,5 @@ In the configuration files the user can list their preferred currencies highligh
 
 It is possible to load and make the page functional in less than 5 minutes.
 
+Example: https://deflatcoin.github.io/dexcover/
+
