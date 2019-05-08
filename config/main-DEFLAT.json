@@ -1,0 +1,42 @@
+{
+  "contractEtherDelta": "smart_contract/etherdelta.sol",
+  "contractToken": "smart_contract/token.sol",
+  "contractReserveToken": "smart_contract/reservetoken.sol",
+  "contractEtherDeltaAddrs": [
+    { "addr": "0x8d12a197cb00d4747a1fe03395095ce2a5cc6819", "info": "Deployed 02/09/2017 -- THE CURRENT SMART CONTRACT" }
+  ],
+  "ethTestnet": false,
+  "ethChainId": 1,
+  "ethProvider": "http://localhost:8545",
+  "ethGasPrice": 4000000000,
+  "ethAddr": "0x0000000000000000000000000000000000000000",
+  "ethAddrPrivateKey": "",
+  "gasApprove": 250000,
+  "gasDeposit": 250000,
+  "gasWithdraw": 250000,
+  "gasTrade": 250000,
+  "gasOrder": 250000,
+  "minOrderSize": 0.001,
+  "socketServer": "https://api.deflat.cloud",
+  "userCookie": "EtherDelta",
+  "eventsCacheCookie": "EtherDelta_eventsCache",
+  "ordersCacheCookie": "EtherDelta_ordersCache",
+  "etherscanAPIKey": "GRUJV9Q1JYIE4D6IADVCSRIWUVCDSDEYTX",
+  "ledgerPath": "m/44'/60'/0'/0",
+  "bases": [
+    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
+  ],
+  "tokens": [
+    { "addr": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359", "name": "DAI", "fullName": "", "decimals": 18 },
+    { "addr": "0x08f5a9235b08173b7569f83645d2c7fb55e8ccd8", "name": "TNT", "fullName": "Tierion Network Token", "decimals": 8 },
+    { "addr": "0xe41d2489571d322189246dafa5ebde1f4699f498", "name": "ZRX", "fullName": "0x Protocol Token", "decimals": 18 },
+    { "addr": "0xF7Be133620a7D944595683cE2B14156591EFe609", "name": "AGAINST", "fullName": "AGAINST Coin", "decimals": 18 }, 
+    { "addr": "0x006bea43baa3f7a6f765f14f10a1a1b08334ef45", "name": "STX", "fullName": "Stox", "decimals": 18 },
+    { "addr": "0xe1E0DB951844E7fb727574D7dACa68d1C5D1525b", "name": "DEFLAT", "fullName": "DEFLAT", "decimals": 18 },
+    { "addr": "0xb8c77482e45f1f44de1745f52c74426c631bdd52", "name": "BNB", "fullName": "BNB", "decimals": 18 },
+    { "addr": "0x0d8775f648430679a709e98d2b0cb6250d2887ef", "name": "BAT", "fullName": "Basic Attention Token", "decimals": 18 },
+    { "addr": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2", "name": "MKR", "fullName": "Maker", "decimals": 18 },
+    { "addr": "0x1985365e9f78359a9b6ad760e32412f4a445e862", "name": "REP", "fullName": "Reputation", "decimals": 18 }
+  ],
+  "defaultPair": { "token": "DEFLAT", "base": "ETH" }
+}
