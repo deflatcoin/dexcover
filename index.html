@@ -2,24 +2,9 @@
 <html lang="en">
   <head>
     <script>
-
-	   var loc = window.location.pathname;
+       var loc = window.location.pathname;
        var scriptfolder = loc.substring(0, loc.lastIndexOf('/'));
        var pathipfs = window.location.pathname.toUpperCase(); 
-/*
-       deprecated after new backend (alfa2)
-       new backend cors accepts trusted gateway connections
-       users with ipfs on the local machine can use them as "localhost"
-       and dispense public gateways.
-       forkdelta and etherdelta api dont work with new cors 
-       to access with forkdelta orderbook access old hash QmVzQz8w9gF7SsVdf2QAmP7C3jLXBuE1XstqWAc72axz8M only localhost (Alfa1)      
-       if (pathipfs.search("/IPFS/") > -1) {           
-         if (window.location.hostname != 'localhost') {
-            window.location = 'http://localhost:8080'+window.location.pathname; 
-         }
-       } 
-*/ 
-
        function setCookie(cookie_name, cookie_value, expire_in_days) {
                var cookie_expire = "";
                if (expire_in_days != null) {
@@ -42,7 +27,6 @@
            setCookie('exchangeAPIname',vCombo,10);           
            window.location.reload(); 
        }
-
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
