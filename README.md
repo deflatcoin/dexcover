@@ -12,6 +12,7 @@ In the configuration files the user can list their preferred currencies highligh
 It is possible to load and make the page functional in less than 5 minutes.
 
 Example 1: https://deflatcoin.github.io/dexcover/
-Example 2: https://gateway.pinata.cloud/ipfs/QmZy4JoS4htanFUW3SVXPW22KmsMnDd67yHTzfpPK1Nwqu#!/trade/AGAINST-ETH
+
+Example 2: https://gateway.pinata.cloud/ipfs/QmZy4JoS4htanFUW3SVXPW22KmsMnDd67yHTzfpPK1Nwqu/
 
 
