@@ -13,7 +13,7 @@ It is possible to load and make the page functional in less than 5 minutes.
 
 Example 1: https://deflatcoin.github.io/dexcover/
 
-Example 2: https://gateway.pinata.cloud/ipfs/QmeNfaELXMVLkNhLDvxv9UiWpiZ4zNLFhNwzRo13w42pic/
+Example 2: https://gateway.pinata.cloud/ipfs/QmUkqyFVqvFCmjWB7ahBeiDayCd4rMtWg3fN4k2oXMbDCG/
 
 Example 3: https://against.network/dex/
 
