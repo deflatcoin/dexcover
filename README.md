@@ -1,5 +1,5 @@
 
-# AGAINST DEX Cover
+# AGAINST Covers
 
 Allows you to run an exchange on any html hosting (when used) or over IPFS.
 
