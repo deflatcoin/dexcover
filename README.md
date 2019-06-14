@@ -13,7 +13,7 @@ It is possible to load and make the page functional in less than 5 minutes.
 
 Example 1: https://gateway.temporal.cloud/ipfs/Qmc4HhctouyDXoXqVwEVZhuiwviYWTFF4HoRLK7zraCUwj/
 
-Example 2: https://gateway.pinata.cloud/ipfs/QmUkqyFVqvFCmjWB7ahBeiDayCd4rMtWg3fN4k2oXMbDCG/
+Example 2: https://gateway.pinata.cloud/ipfs/QmdfS3hGVbzAVtGndRL4oDRPAgMDpsXf2XLu2mF4838XBY
 
 Example 3: https://against.network/dex/
 
