@@ -15,11 +15,11 @@ It is possible to load and make the page functional in less than 5 minutes, no D
 
 Example 1: https://gateway.temporal.cloud/ipfs/Qmc4HhctouyDXoXqVwEVZhuiwviYWTFF4HoRLK7zraCUwj/
 
-Example 2: https://gateway.pinata.cloud/ipfs/QmdfS3hGVbzAVtGndRL4oDRPAgMDpsXf2XLu2mF4838XBY
+Example 2: https://gateway.pinata.cloud/ipfs/QmSSrUUua1kfS1Sh7NYyLiJjvj3X2t145TnZDiPob6rRRV
 
 Example 3: https://against.network/dex/
 
-Example 4: https://gateway.pinata.cloud/ipfs/QmbGkzUBNYBkFLC9DQktCUV1rfYytpPdnpvjv28yf1Ymkf
+Example 4: https://gateway.pinata.cloud/ipfs/Qmew9fSS6Dxdm8oj4zNxwXfEkddFpbJNdNSWGmVxxJpGB2
 
 
 
