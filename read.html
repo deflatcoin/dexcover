@@ -1,0 +1,58 @@
+<html>
+<body>
+
+<script>
+
+//    window.addEventListener('load', async () => {
+//      if (window.ethereum) {
+//        window.web3 = new Web3(ethereum);
+//        try {
+//          await ethereum.enable();
+//          document.getElementById('nsname').innerHTML = 'Connected';
+//        } catch (err) {
+//          document.getElementById('nsname').innerHTML = 'Access denied';
+//        }
+//      } else if (window.web3) {
+//        window.web3 = new Web3(web3.currentProvider)
+//      } else {
+//        document.getElementById('nsname').innerHTML = 'No METAMASK';
+//      }
+//    })
+
+function resolveNS(nsname,label,elementname) {
+
+let abiArray =
+
+[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"nsname","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_nsname","type":"bytes32"},{"name":"_hash","type":"string"}],"name":"setNS","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"comment","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]
+     
+  nsname = web3.fromAscii(nsname);
+  let contractAddress = '0x3387B3e969A39d6640DAd79E374E8a969803D7CE'
+  const contract = web3.eth.contract(abiArray).at(contractAddress);
+ 
+  contract.nsname.call(nsname, function(err, result){  
+     var hash = result;
+     document.getElementById(elementname).innerHTML = '<a href="https://gateway.pinata.cloud/ipfs/'+result+'">'+label+'</a> ==&gt; '+result;
+  })
+}
+
+resolveNS('presentation', 'Presentation Page','onload1');
+resolveNS('compactdex', 'Compact DEX','onload2');
+
+</script>
+On IPFS page change a static IPFS hash by a static mneumonic name<br>
+The contract 0x3387B3e969A39d6640DAd79E374E8a969803D7CE translate mneumonic name to actual IPFS hash of content<br>
+So when you change a page (consequently changing its hash) you will not need to change all the pages that call the changed content.<br>
+The administrator will only have to inform the new hash of the content associated with the mnemonic, calling setNS in the contract 0x3387B3e969A39d6640DAd79E374E8a969803D7CE.<br>
+<br><br>
+
+Static mneumonic<br>
+<input type="text" id="nsname1" value="presentation">
+<button id="getbutton1" onclick="resolveNS(document.getElementById('nsname1').value, 'Presentation Page','link');">NS Resolve</button><br><br>
+<input type="text" id="nsname2" value="compactdex">
+<button id="getbutton2" onclick="resolveNS(document.getElementById('nsname2').value, 'Compact DEX','link');">NS Resolve</button><br><br>
+<span id="link">Link Here</span><br><br>
+On Load Example<br>
+<span id="onload1"></span><br>
+<span id="onload2"></span><br>
+</body>
+</html>
