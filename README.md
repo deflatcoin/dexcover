@@ -19,7 +19,7 @@ Example 2: https://gateway.pinata.cloud/ipfs/QmSSrUUua1kfS1Sh7NYyLiJjvj3X2t145Tn
 
 Example 3: https://against.network/dex/
 
-Example 4: https://gateway.pinata.cloud/ipfs/Qmew9fSS6Dxdm8oj4zNxwXfEkddFpbJNdNSWGmVxxJpGB2
+Example 4: https://gateway.pinata.cloud/ipfs/QmfV4kw8EuTe7MJN7uCRrgvWoojPTAjmD3j2Wt63DndnCk
 
 
 
