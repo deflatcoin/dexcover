@@ -11,7 +11,7 @@ is intended for the user who has a lite host (if used), virtually all traffic oc
 
 In the configuration files the user can list their preferred currencies highlighted and define the API that will be used.
 
-It is possible to load and make the page functional in less than 5 minutes, no Docker, no Nede JS.
+It is possible to load and make the page functional in less than 5 minutes, no Docker, no Node JS.
 
 Example 1: https://gateway.temporal.cloud/ipfs/Qmc4HhctouyDXoXqVwEVZhuiwviYWTFF4HoRLK7zraCUwj/
 
