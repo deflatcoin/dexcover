@@ -1,5 +1,5 @@
 
-# AGAINST Covers
+# AGAINST Covers (Eherdelta Style)
 
 Allows you to run an exchange on any html hosting (when used) or over IPFS.
 
