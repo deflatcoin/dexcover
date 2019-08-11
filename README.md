@@ -1,5 +1,8 @@
+# AGAINST New Covers Full DEX
 
-# AGAINST Covers (EherDelta Based)
+https://against.network/newdex/
+
+# AGAINST Deprecated Covers (EherDelta Based)
 
 Allows you to run an exchange on any html hosting (when used) or over IPFS.
 
