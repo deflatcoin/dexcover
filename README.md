@@ -1,6 +1,9 @@
 # AGAINST New Covers Full DEX
 
-https://against.network/newdex/
+Example 1: https://against.network/newdex/
+
+
+Example 2: https://gateway.pinata.cloud/ipfs/QmVG7fMb4jVzfKqz66xc6BtVX59P46EjiXD39AEzuFq9vp
 
 # AGAINST Deprecated Covers (EherDelta Based)
 
@@ -22,7 +25,6 @@ Example 2: https://gateway.pinata.cloud/ipfs/QmSSrUUua1kfS1Sh7NYyLiJjvj3X2t145Tn
 
 Example 3: https://against.network/dex/
 
-Example 4: https://gateway.pinata.cloud/ipfs/QmVG7fMb4jVzfKqz66xc6BtVX59P46EjiXD39AEzuFq9vp
 
 
 
