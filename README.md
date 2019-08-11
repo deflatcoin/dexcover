@@ -6,7 +6,7 @@ Ecemple 2: Copy file https://github.com/deflatcoin/decentralization/blob/master/
 
 Exemple 3: Add file https://github.com/deflatcoin/decentralization/blob/master/one-file-full-dex.html to your IPFS node
 
-Example 4: https://gateway.pinata.cloud/ipfs/QmVG7fMb4jVzfKqz66xc6BtVX59P46EjiXD39AEzuFq9vp (simple Deflat release gateway)
+Example 4: https://gateway.pinata.cloud/ipfs/QmZ1PtA8uiaNkBTin8beptXww6GNg3QbsSWkbvCbVNyGyN 
 
 # AGAINST Deprecated Covers (EherDelta Based)
 
