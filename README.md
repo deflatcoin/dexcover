@@ -8,7 +8,7 @@ Exemple 3: Add file https://github.com/deflatcoin/decentralization/blob/master/o
 
 Example 4: https://gateway.pinata.cloud/ipfs/QmZ1PtA8uiaNkBTin8beptXww6GNg3QbsSWkbvCbVNyGyN
 
-Ecample 5: https://gateway.pinata.cloud/ipfs/QmRCJQdkJjowi5Wd53LT2saayNT5wwqYcQQvh9CqyeV36V
+Ecample 5: https://gateway.pinata.cloud/ipfs/QmePzEqvi7RqTmzA8X3yXLrm7V5F6NamZKDHQKS8BW9ySe
 
 # AGAINST Deprecated Covers (EherDelta Based)
 
